@@ -54,4 +54,4 @@ class Event(models.Model):
         return self.eventtitle
     
     class Meta:
-db_table = 'event'
+        db_table = 'event'
